@@ -25,6 +25,9 @@ script:
 #   - docker push upendranaik/multi-worker
 
 # deploy:
+#   edge: true  
+
+# deploy:
 #   provider: elasticbeanstalk
 #   region: ap-south-1
 #   app: multi-docker
@@ -34,5 +37,4 @@ script:
 #   on:
 #     branch: master
 #   access_key_id: $AWS_ACCESS_KEY
-#   secret_access_key:
-#     secure: $AWS_SECRET_KEY
+#   secret_access_key: $AWS_SECRET_KEY
